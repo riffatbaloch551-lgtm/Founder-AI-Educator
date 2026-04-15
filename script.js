@@ -41,10 +41,10 @@ const navbar = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
         navbar.style.padding = '1rem 0';
-        navbar.style.background = 'rgba(5, 5, 5, 0.95)';
+        navbar.style.background = 'rgba(2, 6, 23, 0.95)';
     } else {
         navbar.style.padding = '1.5rem 0';
-        navbar.style.background = 'rgba(5, 5, 5, 0.8)';
+        navbar.style.background = 'rgba(2, 6, 23, 0.8)';
     }
 });
 
@@ -79,9 +79,9 @@ style.textContent = `
             top: 100%;
             left: 0;
             width: 100%;
-            background: #050505;
+            background: #020617;
             padding: 2rem;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid var(--border);
             gap: 1.5rem;
             animation: slideDown 0.3s ease-out forwards;
         }
